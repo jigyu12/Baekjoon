@@ -1,0 +1,21 @@
+package 두수비교하기_1330;
+
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        int a = input.nextInt();
+        int b = input.nextInt();
+        if(a > b) {
+            System.out.println(">");
+        }
+        else if(a < b) {
+            System.out.println("<");
+        }
+        else {
+            System.out.println("==");
+        }
+        input.close();
+    }
+}
